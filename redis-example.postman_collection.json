@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "f7ddd030-d9dc-47bf-8416-e0eb098380fd",
+		"name": "redis-example",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21876598",
+		"_collection_link": "https://orange-resonance-363325.postman.co/workspace/My-Workspace~df42ddf1-1ab0-4d9c-8bf3-79e6cb3bbf2b/collection/21876598-f7ddd030-d9dc-47bf-8416-e0eb098380fd?action=share&creator=21876598&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "photos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/photos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"photos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "photos/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/photos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"photos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

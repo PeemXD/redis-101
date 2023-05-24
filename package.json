@@ -1,0 +1,27 @@
+{
+  "name": "redis-101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "note.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeemXD/redis-101.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeemXD/redis-101/issues"
+  },
+  "homepage": "https://github.com/PeemXD/redis-101#readme",
+  "keywords": [],
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "redis": "^3.1.2"
+  }
+}
